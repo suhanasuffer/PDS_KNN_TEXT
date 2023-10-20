@@ -6,7 +6,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 import streamlit as st
 
-df=pd.read_csv(r"C:\Users\91883\Downloads\Twitter_Data.csv")
+df=pd.read_csv(r"Twitter_Data.csv")
 print(df)
 
 print(df.shape)
